@@ -12,6 +12,8 @@ def batch_badge_creator(name_array)
   badge_messages_array
 end
 
+binding.pry
+
 def assign_rooms(speakers)
   speaker_room_array = []
   speakers.each do |speaker|
